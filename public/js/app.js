@@ -33,7 +33,7 @@ const dict = {
 }
 
 const getImageSrc= (weatherCode) => {
-    $("#forecast-jumbotron").css({"background-image": "url(" + dict[weatherCode] + ")","background-repeat":"repeat","background-position":"center center" })
+    $("#forecast-jumbotron").css({"background-image": "url(" + dict[weatherCode] + ")","background-size":"100%","background-repeat":"repeat","background-position":"center center" })
 }
  
 
